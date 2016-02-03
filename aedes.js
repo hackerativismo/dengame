@@ -5,7 +5,7 @@ $(window).ready(function() {
 	'.aegypti { display: block; z-index:9999; position:absolute; width: 60px; height: 50px; margin: 2% auto; background: url("aedes.png")' +
 	'left center; }' +
 	'.flyAE { animation: play .2s steps(6) infinite; }' +
-	'.aegypti { cursor: url(raquete.png) 30 35, pointer; }' +
+	'.aegypti, body { cursor: url(raquete.png) 30 35, auto; }' +
 	'@keyframes play { 100% { background-position: -360px; } }' +
 	'.rotateAE { background-position: 180px; }' +
 	'</style>');
